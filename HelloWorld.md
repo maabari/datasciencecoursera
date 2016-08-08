@@ -29,8 +29,6 @@ p <- ggplot(my_data_long, aes(x = exhibition, y = visit_length)) +
         axis.ticks.y = element_blank(),
         axis.title.y = element_blank())
 
-p
-
 ggsave(paste0(this_base, ".png"), p, width = 7, height = 5)
 
 ## TO DO: boxplot decorations don't match original exactly
